@@ -1,0 +1,69 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img\/background.jpg);  
+}
+.container
+{
+box-sizing: border-box;
+text-align: center;
+width: 600px;
+height: 600px;
+
+}
+h3{
+    color: red;
+}
+h1,h4{
+    color: white;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.card{
+   
+    flex-direction: column;
+    border: 1px solid white;
+        width: 500px;
+        height: 400px;
+       
+}
+img
+{
+border-radius: 80px;
+}
+.customer-name{
+    font-size: 25px;
+}
+.star
+{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.previous{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 30px;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 30px;
+}
